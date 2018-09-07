@@ -1,6 +1,5 @@
 /* ---- Global ---- */
 * {
-    margin: 2rem 0;
     padding: 0;
     border: 0;
     outline: 0;
@@ -22,7 +21,7 @@ body {
 h1 {
     font-size: 5em;
     font-weight: 400;
-    color:  dodgerblue;
+    color:  rgb(31, 181, 207);
 }
 
 h2 {
@@ -32,8 +31,8 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
-    color: dodgerblue;
+    font-size: 1.5em;
+    color: rgb(31, 181, 207);
 }
 
 p {
@@ -44,17 +43,18 @@ p {
 
 i {
     font-size: 5em;
-    color: dodgerblue;
+    color: rgb(31, 181, 207);
     margin: 1rem;
 }
 
 /* ---- Main Elements ---- */
 
 .main {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .about-page {
@@ -62,7 +62,8 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .photo-container {
@@ -71,19 +72,47 @@ i {
 .profile-photo {
     width: 18em;
     border-width: 0.4rem;
-    border-color: dodgerblue;
+    border-color: rgb(31, 181, 207);
     border-radius: 100%;
+    box-shadow: 7rem -8rem rgba(243, 119, 103, .5);
 }
 
 .about-bio {
-    text-align: left;   
+    text-align: left;
+    padding: 1.5rem; 
 }
 
 .contact-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-link {
+    margin: .9rem;
+}
+
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    justify-content: space-evenly;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.details-container {
+    background-color: rgba(243, 119, 103, .5);
+    width: 100%;
 }
 
 .skills-page {
