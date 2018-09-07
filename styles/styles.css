@@ -82,8 +82,9 @@ i {
 
 .profile-photo {
     width: 18em;
-    border-width: 0.4rem;
-    border-color: rgb(27, 154, 177);
+    border: solid;
+    border-width: .5rem;
+    border-color: white;
     border-radius: 100%;
     box-shadow: 7rem -7rem rgba(247, 193, 76, .25);
     /* box-shadow: 7rem -8rem rgba(243, 119, 103, .2); */
