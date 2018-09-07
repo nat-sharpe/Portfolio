@@ -22,23 +22,31 @@ h1 {
     font-size: 5em;
     font-weight: 400;
     color:  rgb(31, 181, 207);
+    margin-bottom: 1rem;
 }
 
 h2 {
-    margin-top: 0;
+    margin: 0;
     font-size: 2.5em;
     font-weight: 400;
 }
 
-h3 {
+a {
+    text-decoration: none;
+    font-weight: 500;
     font-size: 1.5em;
     color: rgb(31, 181, 207);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(243, 119, 103, .6)
 }
 
 p {
-    opacity: 0.7;
     font-size: 1.5em;
     font-weight: 100;
+    margin: 0;
 }
 
 i {
@@ -63,10 +71,7 @@ i {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
-}
-
-.photo-container {
+    margin-top: 4rem;
 }
 
 .profile-photo {
@@ -74,29 +79,35 @@ i {
     border-width: 0.4rem;
     border-color: rgb(31, 181, 207);
     border-radius: 100%;
-    box-shadow: 7rem -8rem rgba(243, 119, 103, .5);
+    box-shadow: 7rem -8rem rgba(243, 119, 103, .2);
+    /* box-shadow: 7rem -8rem rgba(243, 119, 103, .2); */
 }
 
 .about-bio {
     text-align: left;
-    padding: 1.5rem; 
+    padding: 1.5rem;
+    margin-top: 2rem;
+    max-width: 650px;
 }
 
 .contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 2rem 0;
 }
 
 .contact-link {
-    margin: .9rem;
+    margin: 1rem;
 }
 
 .projects-page {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    margin: 2rem 0;
 }
 
 .project-container {
@@ -104,6 +115,8 @@ i {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 3rem 0 2rem;
+    max-width: 650px;
 }
 
 .project-image {
@@ -111,8 +124,25 @@ i {
 }
 
 .details-container {
-    background-color: rgba(243, 119, 103, .5);
+    background-color: rgba(243, 119, 103, .2);
     width: 100%;
+    padding-bottom: 1rem;
+}
+
+.details-title {
+    font-size: 2rem;
+    margin: 1.5rem 2rem 1rem;
+    color: black;
+    text-align: left;
+}
+
+.details-body {
+    margin: 0 2rem 1rem;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
 }
 
 .skills-page {
@@ -120,6 +150,7 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem 0 2rem;
 }
 
 .skills-container {
@@ -127,4 +158,6 @@ i {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 3rem 0 2rem;
+    max-width: 650px;
 }
