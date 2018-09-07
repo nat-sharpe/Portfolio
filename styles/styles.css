@@ -21,7 +21,7 @@ body {
 h1 {
     font-size: 5em;
     font-weight: 400;
-    color:  rgb(31, 181, 207);
+    color:  rgb(24, 167, 192);
     margin-bottom: 1rem;
 }
 
@@ -35,12 +35,13 @@ a {
     text-decoration: none;
     font-weight: 500;
     font-size: 1.5em;
-    color: rgb(31, 181, 207);
+    color: rgb(24, 167, 192);
     cursor: pointer;
 }
 
 a:hover {
-    color: rgba(243, 119, 103, .6)
+    text-decoration: underline;
+    /* color: rgba(243, 119, 103, .6) */
 }
 
 p {
@@ -51,8 +52,13 @@ p {
 
 i {
     font-size: 5em;
-    color: rgb(31, 181, 207);
+    color: rgb(24, 167, 192);
+    /* 31, 181, 207 */
     margin: 1rem;
+}
+
+.hidden {
+    display: none;
 }
 
 /* ---- Main Elements ---- */
@@ -77,9 +83,9 @@ i {
 .profile-photo {
     width: 18em;
     border-width: 0.4rem;
-    border-color: rgb(31, 181, 207);
+    border-color: rgb(27, 154, 177);
     border-radius: 100%;
-    box-shadow: 7rem -8rem rgba(243, 119, 103, .2);
+    box-shadow: 7rem -7rem rgba(247, 193, 76, .25);
     /* box-shadow: 7rem -8rem rgba(243, 119, 103, .2); */
 }
 
@@ -121,10 +127,20 @@ i {
 
 .project-image {
     width: 100%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.project-image:hover {
+    opacity: .80;
+}
+
+.project-gif {
+    cursor: pointer;
 }
 
 .details-container {
-    background-color: rgba(243, 119, 103, .2);
+    background-color: rgba(247, 193, 76, .25);
     width: 100%;
     padding-bottom: 1rem;
 }
