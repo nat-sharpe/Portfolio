@@ -4,6 +4,7 @@
     border: 0;
     outline: 0;
     font-size: 100%;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -87,7 +88,6 @@ i {
     border-color: white;
     border-radius: 100%;
     box-shadow: 7rem -7rem rgba(247, 193, 76, .25);
-    /* box-shadow: 7rem -8rem rgba(243, 119, 103, .2); */
 }
 
 .about-bio {
@@ -124,6 +124,11 @@ i {
     width: 100%;
     margin: 3rem 0 2rem;
     max-width: 650px;
+    border: solid;
+    border-width: .8em;
+    border-color:rgba(247, 193, 76, .0);
+    border-radius: 2%;
+    background-color: rgba(247, 193, 76, .25);
 }
 
 .project-image {
@@ -141,7 +146,6 @@ i {
 }
 
 .details-container {
-    background-color: rgba(247, 193, 76, .25);
     width: 100%;
     padding-bottom: 1rem;
 }
