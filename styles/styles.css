@@ -136,18 +136,19 @@ footer {
 }
 
 .project-image {
+    height: 25em;
     width: 100%;
     background-color: black;
     cursor: pointer;
 }
 
-.project-image:hover {
-    opacity: .80;
+/* .project-image:hover {
+    opacity: .50;
 }
 
 .project-gif {
     cursor: pointer;
-}
+} */
 
 .details-container {
     width: 100%;
