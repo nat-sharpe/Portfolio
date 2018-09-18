@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%;
+    font-size: 97%;
     box-sizing: border-box;
 }
 
@@ -56,6 +56,10 @@ i {
     color: rgb(24, 167, 192);
     /* 31, 181, 207 */
     margin: 1rem;
+}
+
+footer {
+    margin-bottom: 1.5em;
 }
 
 .hidden {
