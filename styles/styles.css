@@ -86,7 +86,8 @@ footer {
 }
 
 .profile-photo {
-    width: 18em;
+    width: 20em;
+    height: 20em;
     border: solid;
     border-width: .5rem;
     border-color: white;
@@ -142,13 +143,6 @@ footer {
     cursor: pointer;
 }
 
-/* .project-image:hover {
-    opacity: .50;
-}
-
-.project-gif {
-    cursor: pointer;
-} */
 
 .details-container {
     width: 100%;
