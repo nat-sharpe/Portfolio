@@ -122,18 +122,50 @@ footer {
     margin: 2rem 0;
 }
 
+
+.projects-all {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
 .project-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin: 3rem 0 2rem;
+    width: 500px;
+    margin: 2rem 1rem 0rem 1rem;
     max-width: 650px;
     border: solid;
     border-width: .8em;
     border-color:rgba(247, 193, 76, .0);
     border-radius: 2%;
     background-color: rgba(247, 193, 76, .25);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .projects-all {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 3rem 0 2rem;
+        max-width: 650px;
+        border: solid;
+        border-width: .8em;
+        border-color:rgba(247, 193, 76, .0);
+        border-radius: 2%;
+        background-color: rgba(247, 193, 76, .25);
+    }
 }
 
 .project-image {
